@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import LocalAuthentication
 
 struct ContentView: View {
     
@@ -16,11 +15,6 @@ struct ContentView: View {
         VStack {
             if viewModel.isUnlocked {
                 Form {
-                    Text("Secret Data")
-                    Text("Secret Data")
-                    Text("Secret Data")
-                    Text("Secret Data")
-                    Text("Secret Data")
                     Text("Secret Data")
                     Text("Secret Data")
                     Text("Secret Data")
