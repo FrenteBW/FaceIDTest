@@ -11,6 +11,7 @@
 		7A604A4B2AEA464000581AE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A604A4A2AEA464000581AE7 /* ContentView.swift */; };
 		7A604A4D2AEA464700581AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A604A4C2AEA464700581AE7 /* Assets.xcassets */; };
 		7A604A502AEA464700581AE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A604A4F2AEA464700581AE7 /* Preview Assets.xcassets */; };
+		7A8EBC422AEB905F002E76FC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EBC412AEB905F002E76FC /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7A604A4A2AEA464000581AE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A604A4C2AEA464700581AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A604A4F2AEA464700581AE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A8EBC412AEB905F002E76FC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				7A604A482AEA464000581AE7 /* FaceIDTestApp.swift */,
+				7A8EBC412AEB905F002E76FC /* ViewModel.swift */,
 				7A604A4A2AEA464000581AE7 /* ContentView.swift */,
 				7A604A4C2AEA464700581AE7 /* Assets.xcassets */,
 				7A604A4E2AEA464700581AE7 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A604A4B2AEA464000581AE7 /* ContentView.swift in Sources */,
+				7A8EBC422AEB905F002E76FC /* ViewModel.swift in Sources */,
 				7A604A492AEA464000581AE7 /* FaceIDTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +279,7 @@
 				DEVELOPMENT_TEAM = N26MX7V92N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,7 +309,7 @@
 				DEVELOPMENT_TEAM = N26MX7V92N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
